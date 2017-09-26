@@ -1,0 +1,881 @@
+0000.002 (0) Opened log file at time: Mon, 18 Sep 2017 23:38:51 +0000 on http://www.thesvu.org
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.21 (cgi-fcgi, Linux carnage 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 27.6M | 30M) multisite: N openssl: OpenSSL 1.0.1 14 Mar 2012 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 371888.7 MB
+0000.009 (0) Tasks: Backup files: 1 (schedule: fortnightly) Backup DB:  (schedule: weekly)
+0000.017 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.019 (0) Semaphore (f, wp_options) being initialised
+0000.054 (0) Requesting semaphore lock (f) (apparently not via scheduler)
+0000.063 (0) Set semaphore last lock (f) time to 2017-09-18 23:38:51
+0000.064 (0) Semaphore lock (f) complete
+0000.071 (0) Backup run: resumption=0, nonce=88f15a8dd1fc, begun at=1505777931 (0s ago), job type=backup
+0000.073 (0) Scheduling a resumption (1) after 300 seconds (1505778231) in case this run gets aborted
+0000.088 (0) Checking if we have a zip executable available
+0000.089 (0) Testing: /usr/bin/zip
+0000.101 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.103 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.104 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.105 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.106 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.118 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.120 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.504 (0) Working binary zip found: /usr/bin/zip
+0000.507 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.508 (0) Creation of backups of directories: beginning
+0000.520 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.313 (0) Total entities for the zip file: 812 directories, 5542 files (0 skipped as non-modified), 55 MB
+0001.318 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.322 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.327 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.336 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.340 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.341 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 5542 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.682 (0) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: size is now: 1.70 MB
+0001.690 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 600 files added (on-disk size: 1747.6 KB)
+0001.694 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 700 files added (on-disk size: 1747.6 KB)
+0001.698 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 800 files added (on-disk size: 1747.6 KB)
+0001.702 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 900 files added (on-disk size: 1747.6 KB)
+0001.706 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 1000 files added (on-disk size: 1747.6 KB)
+0001.707 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.8 MB, 5542 files batched, 501 (1002) added so far); re-opening (prior size: 1747.6 KB)
+0002.032 (0) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: size is now: 3.20 MB
+0002.038 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 1100 files added (on-disk size: 3261 KB)
+0002.042 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 1200 files added (on-disk size: 3261 KB)
+0002.046 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 1300 files added (on-disk size: 3261 KB)
+0002.051 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 1400 files added (on-disk size: 3261 KB)
+0002.054 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 1500 files added (on-disk size: 3261 KB)
+0002.055 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 5542 files batched, 501 (1503) added so far); re-opening (prior size: 3261 KB)
+0002.303 (0) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: size is now: 4.20 MB
+0002.310 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 1600 files added (on-disk size: 4297.3 KB)
+0002.314 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 1700 files added (on-disk size: 4297.3 KB)
+0002.318 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 1800 files added (on-disk size: 4297.3 KB)
+0002.322 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 1900 files added (on-disk size: 4297.3 KB)
+0002.326 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 2000 files added (on-disk size: 4297.3 KB)
+0002.331 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 5542 files batched, 501 (2004) added so far); re-opening (prior size: 4297.3 KB)
+0002.752 (0) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: size is now: 5.60 MB
+0002.758 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 2100 files added (on-disk size: 5783.1 KB)
+0002.762 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 2200 files added (on-disk size: 5783.1 KB)
+0002.767 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 2300 files added (on-disk size: 5783.1 KB)
+0002.771 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 2400 files added (on-disk size: 5783.1 KB)
+0002.775 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 2500 files added (on-disk size: 5783.1 KB)
+0002.777 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.4 MB, 5542 files batched, 501 (2505) added so far); re-opening (prior size: 5783.1 KB)
+0003.231 (0) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: size is now: 7.20 MB
+0003.239 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 2600 files added (on-disk size: 7370.7 KB)
+0003.243 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 2700 files added (on-disk size: 7370.7 KB)
+0003.247 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 2800 files added (on-disk size: 7370.7 KB)
+0003.251 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 2900 files added (on-disk size: 7370.7 KB)
+0003.255 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 3000 files added (on-disk size: 7370.7 KB)
+0003.257 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.4 MB, 5542 files batched, 501 (3006) added so far); re-opening (prior size: 7370.7 KB)
+0003.614 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 3100 files added (on-disk size: 8013.6 KB)
+0003.624 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 3200 files added (on-disk size: 8013.6 KB)
+0003.629 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 3300 files added (on-disk size: 8013.6 KB)
+0003.633 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 3400 files added (on-disk size: 8013.6 KB)
+0003.638 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 3500 files added (on-disk size: 8013.6 KB)
+0003.639 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 5542 files batched, 501 (3507) added so far); re-opening (prior size: 8013.6 KB)
+0003.986 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 3600 files added (on-disk size: 8587.1 KB)
+0003.991 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 3700 files added (on-disk size: 8587.1 KB)
+0003.998 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 3800 files added (on-disk size: 8587.1 KB)
+0004.002 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 3900 files added (on-disk size: 8587.1 KB)
+0004.006 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 4000 files added (on-disk size: 8587.1 KB)
+0004.007 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 5542 files batched, 501 (4008) added so far); re-opening (prior size: 8587.1 KB)
+0004.339 (0) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: size is now: 11.70 MB
+0004.345 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 4100 files added (on-disk size: 12004.2 KB)
+0004.350 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 4200 files added (on-disk size: 12004.2 KB)
+0004.354 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 4300 files added (on-disk size: 12004.2 KB)
+0004.358 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 4400 files added (on-disk size: 12004.2 KB)
+0004.362 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 4500 files added (on-disk size: 12004.2 KB)
+0004.364 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.2 MB, 5542 files batched, 501 (4509) added so far); re-opening (prior size: 12004.2 KB)
+0005.538 (0) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: size is now: 15.90 MB
+0005.550 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 4600 files added (on-disk size: 16273 KB)
+0005.555 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 4700 files added (on-disk size: 16273 KB)
+0005.559 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 4800 files added (on-disk size: 16273 KB)
+0005.563 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 4900 files added (on-disk size: 16273 KB)
+0005.567 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 5000 files added (on-disk size: 16273 KB)
+0005.568 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.8 MB, 5542 files batched, 501 (5010) added so far); re-opening (prior size: 16273 KB)
+0005.984 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 5100 files added (on-disk size: 17224.5 KB)
+0005.988 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 5200 files added (on-disk size: 17224.5 KB)
+0005.992 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 5300 files added (on-disk size: 17224.5 KB)
+0005.997 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 5400 files added (on-disk size: 17224.5 KB)
+0006.002 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip.tmp: 5500 files added (on-disk size: 17224.5 KB)
+0006.003 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 5542 files batched, 501 (5511) added so far); re-opening (prior size: 17224.5 KB)
+0007.221 (0) Created plugins zip (0) - 19310.2 KB in 6.7 s (2883 KB/s) (sha1: 9953e8b617baa0eb4ea622a2c3910a7399ff419e, sha256: e1d2512f2f74e37823df4c1694d4527cb0315f2ca21e12645598c048f4fab59e)
+0007.224 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.242 (0) Total entities for the zip file: 12 directories, 107 files (0 skipped as non-modified), 3.3 MB
+0007.247 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.474 (0) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip.tmp: size is now: 1.50 MB
+0007.508 (0) Created themes zip (0) - 1499.8 KB in 0.3 s (5297.9 KB/s) (sha1: fada9f7917b76c335f60e7f84402ee4c4f58be6e, sha256: 0f160366b0339fceb9e803bb54d9d97e44db9d7caeeb1b8f1a5f206587368171)
+0007.517 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0007.518 (0) Looking for candidates to back up in: /home/thesvu/thesvu.org/wp-content/uploads
+0007.519 (0) finding files: ft-dummy-data: adding to list (1)
+0007.521 (0) finding files: 2013: adding to list (2)
+0007.521 (0) finding files: 2016: adding to list (3)
+0007.523 (0) finding files: 2017: adding to list (4)
+0007.524 (0) finding files: ptetmp: adding to list (5)
+0007.525 (0) finding files: maps-backup: adding to list (6)
+0007.526 (0) finding files: sucuri: adding to list (7)
+0007.527 (0) finding files: profiles: adding to list (8)
+0007.528 (0) finding files: mc4wp-debug-log.php: adding to list (9)
+0007.529 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0007.599 (0) Total entities for the zip file: 18 directories, 784 files (0 skipped as non-modified), 48.1 MB
+0007.603 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.607 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.611 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.615 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0007.619 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0007.620 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.9 MB, 784 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0008.036 (0) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip.tmp: size is now: 19.40 MB
+0008.047 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip.tmp: 600 files added (on-disk size: 19863 KB)
+0008.052 (0) Zip: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip.tmp: 700 files added (on-disk size: 19863 KB)
+0008.060 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 784 files batched, 231 (732) added so far); re-opening (prior size: 19863 KB)
+0008.524 (0) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip.tmp: size is now: 44.50 MB
+0008.527 (0) A useful amount of data was added after this amount of zip processing: 0.8 s (normalised: 0.8 s, rate: 30489 KB/s)
+0008.530 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.84107494354248, normalised_time=0.83964682262876, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=187324474)
+0009.631 (0) Created uploads zip (0) - 48726.7 KB in 2.1 s (23192.2 KB/s) (sha1: 50e67fd2a811bb0dc726d2ef3fa9a7e0c8be551a, sha256: 5757a1034eab96382505b6a06f3f2a95742f45a2bd180b4564795bab29b8629a)
+0009.641 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.644 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.656 (0) Looking for candidates to back up in: /home/thesvu/thesvu.org/wp-content
+0009.657 (0) finding files: themes: skipping: this is the themes directory
+0009.658 (0) finding files: upgrade: skipping: excluded by options
+0009.659 (0) finding files: uploads: skipping: this is the uploads directory
+0009.659 (0) finding files: db.php: adding to list (1)
+0009.667 (0) finding files: index.php: adding to list (2)
+0009.668 (0) finding files: plugins: skipping: this is the plugins directory
+0009.669 (0) finding files: updraft: skipping: this is the updraft directory
+0009.670 (0) finding files: advanced-cache.php: adding to list (3)
+0009.673 (0) finding files: cache: skipping: excluded by options
+0009.674 (0) finding files: w3tc-config: adding to list (4)
+0009.675 (0) finding files: backup-db: skipping: excluded by options (glob)
+0009.675 (0) finding files: mu-plugins: adding to list (5)
+0009.678 (0) Unexpected: path (db.php) fails both is_file() and is_dir()
+0009.680 (0) Total entities for the zip file: 2 directories, 4 files (0 skipped as non-modified), 0 MB
+0009.695 (0) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip.tmp: size is now: 0.00 MB
+0009.700 (0) Created others zip (0) - 6.2 KB in 0 s (261.6 KB/s) (sha1: 14fec309d546141b28099c104fd5dfc55b72defe, sha256: 41b52aca43ae4609888553b44b23ea6b171c400d71b361b60699a2fa32d05b7e)
+0009.706 (0) Saving backup status to database (elements: 8)
+0009.710 (0) No database backup (wp) - not part of this run
+0009.713 (0) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0009.714 (0) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0009.715 (0) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0009.717 (0) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip: others: This file has not yet been successfully uploaded: will queue
+0009.717 (0) Saving backup history. Total backup size: 67.9 MB
+0009.727 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0009.731 (0) Cloud backup selection (1/1): dropbox (last)
+0009.732 (0) Beginning dispatch of backup to remote (dropbox)
+0009.733 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0009.737 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0011.587 (0) Dropbox quota usage: used=2252.5 MB, total=2048 MB, available=-204.5 MB
+0011.588 (0) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip) size is 19310.166992188 b (overall file size; .19773611 b), whereas available quota is only -214458314 b
+0011.589 (0) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip
+0014.271 (0) Dropbox chunked upload: 5.3 % uploaded (AAAAAAAAAf4R-sItx9cMIg, 1048576, 2560 KB)
+0018.290 (0) Dropbox chunked upload: 18.6 % uploaded (AAAAAAAAAf4R-sItx9cMIg, 3670016, 5632 KB)
+0023.659 (0) Dropbox chunked upload: 47.7 % uploaded (AAAAAAAAAf4R-sItx9cMIg, 9437184, 9216 KB)
+0029.012 (0) Dropbox chunked upload: 95.5 % uploaded (AAAAAAAAAf4R-sItx9cMIg, 18874368, 10240 KB)
+0032.340 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAf4R-sItx9cMIg, 19773611, 10240 KB)
+0034.806 (0) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0034.880 (0) Dropbox error: path
+0034.881 (0) An error condition has occurred for the first time during this job
+0035.299 (0) Dropbox quota usage: used=2252.5 MB, total=2048 MB, available=-204.5 MB
+0035.307 (0) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip) size is 1499.806640625 b (overall file size; .1535802 b), whereas available quota is only -214458314 b
+0035.308 (0) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip
+0038.395 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAf9bvKrBkQxe8w, 1535802, 10240 KB)
+0040.379 (0) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0040.380 (0) Dropbox error: path
+0040.810 (0) Dropbox quota usage: used=2252.5 MB, total=2048 MB, available=-204.5 MB
+0040.865 (0) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip) size is 48726.7421875 b (overall file size; .49896184 b), whereas available quota is only -214458314 b
+0040.866 (0) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip
+0045.731 (0) Dropbox chunked upload: 21 % uploaded (AAAAAAAAAgAxig1l3BZEDg, 10485760, 10240 KB)
+0050.845 (0) Dropbox chunked upload: 42 % uploaded (AAAAAAAAAgAxig1l3BZEDg, 20971520, 10240 KB)
+0055.211 (0) Dropbox chunked upload: 63 % uploaded (AAAAAAAAAgAxig1l3BZEDg, 31457280, 10240 KB)
+0060.738 (0) Dropbox chunked upload: 84.1 % uploaded (AAAAAAAAAgAxig1l3BZEDg, 41943040, 10240 KB)
+0065.056 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAgAxig1l3BZEDg, 49896184, 10240 KB)
+0067.210 (0) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0067.214 (0) Dropbox error: path
+0067.656 (0) Dropbox quota usage: used=2252.5 MB, total=2048 MB, available=-204.5 MB
+0067.664 (0) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip) size is 6.1689453125 b (overall file size; .6317 b), whereas available quota is only -214458314 b
+0067.665 (0) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip
+0068.672 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAgE-PofWLBhWUw, 6317, 10240 KB)
+0069.729 (0) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0069.735 (0) Dropbox error: path
+0069.738 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0069.740 (0) Number of backup sets in history: 4; groups (db): 1
+0069.741 (0) Examining (for databases) backup set with group_id=0, nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+0069.741 (0) Examining (for databases) backup set with group_id=0, nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+0069.741 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0069.742 (0) Examining (for databases) backup set with group_id=0, nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+0069.742 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0069.743 (0) Examining (for databases) backup set with group_id=0, nonce=5323c659dc09, datestamp=1504565599 (Sep 04 2017 22:53:19)
+0069.743 (0) Number of backup sets in history: 4; groups (files): 1
+0069.745 (0) Examining (for files) backup set with nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+0069.745 (0) This backup set is the backup set just made, so will not be deleted.
+0069.751 (0) This backup set is the backup set just made, so will not be deleted.
+0069.751 (0) This backup set is the backup set just made, so will not be deleted.
+0069.751 (0) This backup set is the backup set just made, so will not be deleted.
+0069.751 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0069.752 (0) Examining (for files) backup set with nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+0069.752 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0069.752 (0) Examining (for files) backup set with nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+0069.752 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0069.753 (0) Examining (for files) backup set with nonce=5323c659dc09, datestamp=1504565599 (Sep 04 2017 22:53:19)
+0069.753 (0) plugins: over retain limit (2); will delete this file entity
+0069.753 (0) themes: over retain limit (2); will delete this file entity
+0069.753 (0) uploads: over retain limit (2); will delete this file entity
+0069.753 (0) others: over retain limit (2); will delete this file entity
+0069.753 (0) Delete file: backup_2017-09-04-2253_Student_Veteran039s_Union_5323c659dc09-plugins.zip, service=dropbox
+0069.754 (0) Delete file: backup_2017-09-04-2253_Student_Veteran039s_Union_5323c659dc09-themes.zip, service=dropbox
+0069.755 (0) Delete file: backup_2017-09-04-2253_Student_Veteran039s_Union_5323c659dc09-uploads.zip, service=dropbox
+0069.755 (0) Delete file: backup_2017-09-04-2253_Student_Veteran039s_Union_5323c659dc09-others.zip, service=dropbox
+0069.757 (0) Dropbox: request deletion: backup_2017-09-04-2253_Student_Veteran039s_Union_5323c659dc09-plugins.zip
+0071.441 (0) Dropbox: delete succeeded
+0071.443 (0) Dropbox: request deletion: backup_2017-09-04-2253_Student_Veteran039s_Union_5323c659dc09-themes.zip
+0072.320 (0) Dropbox: delete succeeded
+0072.321 (0) Dropbox: request deletion: backup_2017-09-04-2253_Student_Veteran039s_Union_5323c659dc09-uploads.zip
+0073.221 (0) Dropbox: delete succeeded
+0073.223 (0) Dropbox: request deletion: backup_2017-09-04-2253_Student_Veteran039s_Union_5323c659dc09-others.zip
+0074.022 (0) Dropbox: delete succeeded
+0074.056 (0) This backup set is now empty; will remove from history
+0074.057 (0) Deleting log file (log.5323c659dc09.txt)
+0074.058 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0074.088 (0) Resume backup (88f15a8dd1fc, 0): finish run
+0074.096 (0) Decremented the semaphore (f) by 1
+0074.173 (0) Semaphore (f) unlocked
+0074.174 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0074.178 (0) Rescheduling resumption 1: moving to 120 seconds from now (1505778125)
+0074.180 (0) The backup has not finished; a resumption is scheduled
+5148.481 (1) Opened log file at time: Tue, 19 Sep 2017 01:04:39 +0000 on http://www.thesvu.org
+5148.484 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.21 (cgi-fcgi, Linux carnage 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 27.6M | 28M) multisite: N openssl: OpenSSL 1.0.1 14 Mar 2012 mcrypt: Y LANG:  ZipArchive::addFile: Y
+5148.490 (1) Free space on disk containing Updraft's temporary directory: 371821.4 MB
+5148.516 (1) Backup run: resumption=1, nonce=88f15a8dd1fc, begun at=1505777931 (5148s ago), job type=backup, previous check-in=74s
+5148.518 (1) Long time past since expected resumption time: approx expected=1505778305.4, now=1505783079.8, diff=4774.4
+5148.529 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+5148.540 (1) Scheduling a resumption (2) after 300 seconds (1505783379) in case this run gets aborted
+5148.561 (1) Checking if we have a zip executable available
+5148.563 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+5148.567 (1) Creation of backups of directories: already finished
+5148.568 (1) Saving backup status to database (elements: 8)
+5148.583 (1) No database backup (wp) - not part of this run
+5148.592 (1) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+5148.593 (1) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+5148.595 (1) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+5148.599 (1) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip: others: This file has not yet been successfully uploaded: will queue
+5148.602 (1) Saving backup history. Total backup size: 67.9 MB
+5148.614 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+5148.618 (1) Cloud backup selection (1/1): dropbox (last)
+5148.620 (1) Beginning dispatch of backup to remote (dropbox)
+5148.621 (1) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+5148.630 (1) Dropbox: access gained; setting chunk size to: 10240 KB
+5149.072 (1) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+5149.073 (1) This is a resumption: 19773611 bytes had already been uploaded
+5149.074 (1) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip) size is -19754300.833008 b (overall file size; .19773611 b), whereas available quota is only -153898098 b
+5149.075 (1) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip
+5149.945 (1) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+5149.947 (1) Dropbox error: path
+5149.963 (1) An error condition has occurred for the first time during this job
+5150.349 (1) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+5150.350 (1) This is a resumption: 1535802 bytes had already been uploaded
+5150.351 (1) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip) size is -1534302.1933594 b (overall file size; .1535802 b), whereas available quota is only -153898098 b
+5150.352 (1) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip
+5151.152 (1) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+5151.160 (1) Dropbox error: path
+5151.558 (1) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+5151.559 (1) This is a resumption: 49896184 bytes had already been uploaded
+5151.560 (1) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip) size is -49847457.257812 b (overall file size; .49896184 b), whereas available quota is only -153898098 b
+5151.561 (1) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip
+5152.390 (1) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+5152.391 (1) Dropbox error: path
+5152.770 (1) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+5152.771 (1) This is a resumption: 6317 bytes had already been uploaded
+5152.772 (1) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip) size is -6310.8310546875 b (overall file size; .6317 b), whereas available quota is only -153898098 b
+5152.773 (1) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip
+5153.633 (1) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+5153.634 (1) Dropbox error: path
+5153.641 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+5153.646 (1) Number of backup sets in history: 4; groups (db): 1
+5153.647 (1) Examining (for databases) backup set with group_id=0, nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+5153.649 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+5153.649 (1) Examining (for databases) backup set with group_id=0, nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+5153.649 (1) Examining (for databases) backup set with group_id=0, nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+5153.650 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+5153.650 (1) Examining (for databases) backup set with group_id=0, nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+5153.650 (1) Number of backup sets in history: 4; groups (files): 1
+5153.650 (1) Examining (for files) backup set with nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+5153.650 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+5153.651 (1) Examining (for files) backup set with nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+5153.651 (1) This backup set is the backup set just made, so will not be deleted.
+5153.654 (1) This backup set is the backup set just made, so will not be deleted.
+5153.654 (1) This backup set is the backup set just made, so will not be deleted.
+5153.654 (1) This backup set is the backup set just made, so will not be deleted.
+5153.654 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+5153.655 (1) Examining (for files) backup set with nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+5153.655 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+5153.657 (1) Examining (for files) backup set with nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+5153.657 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+5153.658 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+5153.660 (1) Resume backup (88f15a8dd1fc, 1): finish run
+5153.662 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5153.664 (1) The backup has not finished; a resumption is scheduled
+14447.645 (2) Opened log file at time: Tue, 19 Sep 2017 03:39:38 +0000 on http://www.thesvu.org
+14447.646 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.21 (cgi-fcgi, Linux carnage 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 27.6M | 28M) multisite: N openssl: OpenSSL 1.0.1 14 Mar 2012 mcrypt: Y LANG:  ZipArchive::addFile: Y
+14447.647 (2) Free space on disk containing Updraft's temporary directory: 371695.2 MB
+14447.651 (2) Backup run: resumption=2, nonce=88f15a8dd1fc, begun at=1505777931 (14447s ago), job type=backup
+14447.652 (2) Long time past since expected resumption time: approx expected=1505783379.8, now=1505792379, diff=8999.2
+14447.654 (2) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+14447.657 (2) Scheduling a resumption (3) after 300 seconds (1505792678) in case this run gets aborted
+14447.672 (2) Checking if we have a zip executable available
+14447.674 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+14447.675 (2) Creation of backups of directories: already finished
+14447.677 (2) Saving backup status to database (elements: 8)
+14447.697 (2) No database backup (wp) - not part of this run
+14447.700 (2) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+14447.701 (2) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+14447.703 (2) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+14447.704 (2) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip: others: This file has not yet been successfully uploaded: will queue
+14447.706 (2) Saving backup history. Total backup size: 67.9 MB
+14447.717 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+14447.721 (2) Cloud backup selection (1/1): dropbox (last)
+14447.723 (2) Beginning dispatch of backup to remote (dropbox)
+14447.724 (2) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+14447.738 (2) Dropbox: access gained; setting chunk size to: 10240 KB
+14448.214 (2) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+14448.219 (2) This is a resumption: 19773611 bytes had already been uploaded
+14448.220 (2) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip) size is -19754300.833008 b (overall file size; .19773611 b), whereas available quota is only -153898098 b
+14448.221 (2) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip
+14448.884 (2) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+14448.885 (2) Dropbox error: path
+14448.886 (2) An error condition has occurred for the first time during this job
+14449.299 (2) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+14449.300 (2) This is a resumption: 1535802 bytes had already been uploaded
+14449.302 (2) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip) size is -1534302.1933594 b (overall file size; .1535802 b), whereas available quota is only -153898098 b
+14449.303 (2) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip
+14449.970 (2) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+14449.971 (2) Dropbox error: path
+14450.390 (2) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+14450.392 (2) This is a resumption: 49896184 bytes had already been uploaded
+14450.393 (2) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip) size is -49847457.257812 b (overall file size; .49896184 b), whereas available quota is only -153898098 b
+14450.393 (2) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip
+14451.036 (2) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+14451.041 (2) Dropbox error: path
+14451.557 (2) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+14451.559 (2) This is a resumption: 6317 bytes had already been uploaded
+14451.565 (2) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip) size is -6310.8310546875 b (overall file size; .6317 b), whereas available quota is only -153898098 b
+14451.567 (2) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip
+14452.205 (2) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+14452.251 (2) Dropbox error: path
+14452.255 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+14452.259 (2) Number of backup sets in history: 4; groups (db): 1
+14452.261 (2) Examining (for databases) backup set with group_id=0, nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+14452.262 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+14452.263 (2) Examining (for databases) backup set with group_id=0, nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+14452.263 (2) Examining (for databases) backup set with group_id=0, nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+14452.263 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+14452.263 (2) Examining (for databases) backup set with group_id=0, nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+14452.263 (2) Number of backup sets in history: 4; groups (files): 1
+14452.264 (2) Examining (for files) backup set with nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+14452.264 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+14452.265 (2) Examining (for files) backup set with nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+14452.265 (2) This backup set is the backup set just made, so will not be deleted.
+14452.266 (2) This backup set is the backup set just made, so will not be deleted.
+14452.266 (2) This backup set is the backup set just made, so will not be deleted.
+14452.266 (2) This backup set is the backup set just made, so will not be deleted.
+14452.266 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+14452.267 (2) Examining (for files) backup set with nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+14452.267 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+14452.268 (2) Examining (for files) backup set with nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+14452.268 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+14452.269 (2) Retain: saving new backup history (sets now: 4) and finishing retain operation
+14452.271 (2) Resume backup (88f15a8dd1fc, 2): finish run
+14452.274 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+14452.286 (2) The backup has not finished; a resumption is scheduled
+14769.507 (3) Opened log file at time: Tue, 19 Sep 2017 03:45:00 +0000 on http://www.thesvu.org
+14769.509 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.21 (cgi-fcgi, Linux carnage 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 27.2M | 2M) multisite: N openssl: OpenSSL 1.0.1 14 Mar 2012 mcrypt: Y LANG:  ZipArchive::addFile: Y
+14769.510 (3) Free space on disk containing Updraft's temporary directory: 371721 MB
+14769.512 (3) Backup run: resumption=3, nonce=88f15a8dd1fc, begun at=1505777931 (14769s ago), job type=backup
+14769.514 (3) Scheduling a resumption (4) after 300 seconds (1505793000) in case this run gets aborted
+14769.539 (3) Checking if we have a zip executable available
+14769.565 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+14769.577 (3) Creation of backups of directories: already finished
+14769.584 (3) Saving backup status to database (elements: 8)
+14769.613 (3) No database backup (wp) - not part of this run
+14769.615 (3) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+14769.616 (3) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+14769.633 (3) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+14769.642 (3) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip: others: This file has not yet been successfully uploaded: will queue
+14769.643 (3) Saving backup history. Total backup size: 67.9 MB
+14769.657 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+14769.671 (3) Cloud backup selection (1/1): dropbox (last)
+14769.672 (3) Beginning dispatch of backup to remote (dropbox)
+14769.672 (3) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+14769.677 (3) Dropbox: access gained; setting chunk size to: 10240 KB
+14772.085 (3) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+14772.087 (3) This is a resumption: 19773611 bytes had already been uploaded
+14772.089 (3) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip) size is -19754300.833008 b (overall file size; .19773611 b), whereas available quota is only -153898098 b
+14772.089 (3) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip
+14773.026 (3) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+14773.027 (3) Dropbox error: path
+14773.028 (3) An error condition has occurred for the first time during this job
+14773.457 (3) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+14773.462 (3) This is a resumption: 1535802 bytes had already been uploaded
+14773.464 (3) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip) size is -1534302.1933594 b (overall file size; .1535802 b), whereas available quota is only -153898098 b
+14773.465 (3) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip
+14774.314 (3) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+14774.322 (3) Dropbox error: path
+14774.741 (3) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+14774.743 (3) This is a resumption: 49896184 bytes had already been uploaded
+14774.744 (3) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip) size is -49847457.257812 b (overall file size; .49896184 b), whereas available quota is only -153898098 b
+14774.745 (3) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip
+14775.540 (3) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+14775.542 (3) Dropbox error: path
+14775.974 (3) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+14775.976 (3) This is a resumption: 6317 bytes had already been uploaded
+14775.978 (3) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip) size is -6310.8310546875 b (overall file size; .6317 b), whereas available quota is only -153898098 b
+14775.980 (3) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip
+14776.838 (3) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+14776.839 (3) Dropbox error: path
+14776.843 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+14776.848 (3) Number of backup sets in history: 4; groups (db): 1
+14776.848 (3) Examining (for databases) backup set with group_id=0, nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+14776.850 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+14776.851 (3) Examining (for databases) backup set with group_id=0, nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+14776.851 (3) Examining (for databases) backup set with group_id=0, nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+14776.851 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+14776.851 (3) Examining (for databases) backup set with group_id=0, nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+14776.851 (3) Number of backup sets in history: 4; groups (files): 1
+14776.852 (3) Examining (for files) backup set with nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+14776.852 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+14776.853 (3) Examining (for files) backup set with nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+14776.853 (3) This backup set is the backup set just made, so will not be deleted.
+14776.854 (3) This backup set is the backup set just made, so will not be deleted.
+14776.854 (3) This backup set is the backup set just made, so will not be deleted.
+14776.854 (3) This backup set is the backup set just made, so will not be deleted.
+14776.854 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+14776.855 (3) Examining (for files) backup set with nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+14776.855 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+14776.856 (3) Examining (for files) backup set with nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+14776.856 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+14776.856 (3) Retain: saving new backup history (sets now: 4) and finishing retain operation
+14776.859 (3) Resume backup (88f15a8dd1fc, 3): finish run
+14776.861 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+14776.863 (3) The backup has not finished; a resumption is scheduled
+15190.583 (4) Opened log file at time: Tue, 19 Sep 2017 03:52:01 +0000 on http://www.thesvu.org
+15190.588 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.21 (cgi-fcgi, Linux carnage 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 27.2M | 12M) multisite: N openssl: OpenSSL 1.0.1 14 Mar 2012 mcrypt: Y LANG:  ZipArchive::addFile: Y
+15190.589 (4) Free space on disk containing Updraft's temporary directory: 371674.6 MB
+15190.591 (4) Backup run: resumption=4, nonce=88f15a8dd1fc, begun at=1505777931 (15190s ago), job type=backup
+15190.594 (4) Scheduling a resumption (5) after 300 seconds (1505793421) in case this run gets aborted
+15190.605 (4) Checking if we have a zip executable available
+15190.612 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+15190.615 (4) Creation of backups of directories: already finished
+15190.616 (4) Saving backup status to database (elements: 8)
+15190.623 (4) No database backup (wp) - not part of this run
+15190.625 (4) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+15190.626 (4) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+15190.626 (4) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+15190.629 (4) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip: others: This file has not yet been successfully uploaded: will queue
+15190.629 (4) Saving backup history. Total backup size: 67.9 MB
+15190.633 (4) Requesting upload of the files that have not yet been successfully uploaded (4)
+15190.636 (4) Cloud backup selection (1/1): dropbox (last)
+15190.637 (4) Beginning dispatch of backup to remote (dropbox)
+15190.638 (4) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+15190.643 (4) Dropbox: access gained; setting chunk size to: 10240 KB
+15191.361 (4) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+15191.425 (4) This is a resumption: 19773611 bytes had already been uploaded
+15191.426 (4) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip) size is -19754300.833008 b (overall file size; .19773611 b), whereas available quota is only -153898098 b
+15191.427 (4) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip
+15192.306 (4) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+15192.308 (4) Dropbox error: path
+15192.309 (4) An error condition has occurred for the first time during this job
+15192.757 (4) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+15192.758 (4) This is a resumption: 1535802 bytes had already been uploaded
+15192.759 (4) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip) size is -1534302.1933594 b (overall file size; .1535802 b), whereas available quota is only -153898098 b
+15192.759 (4) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip
+15193.517 (4) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+15193.518 (4) Dropbox error: path
+15194.010 (4) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+15194.012 (4) This is a resumption: 49896184 bytes had already been uploaded
+15194.012 (4) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip) size is -49847457.257812 b (overall file size; .49896184 b), whereas available quota is only -153898098 b
+15194.013 (4) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip
+15194.770 (4) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+15194.771 (4) Dropbox error: path
+15195.271 (4) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+15195.273 (4) This is a resumption: 6317 bytes had already been uploaded
+15195.273 (4) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip) size is -6310.8310546875 b (overall file size; .6317 b), whereas available quota is only -153898098 b
+15195.275 (4) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip
+15196.161 (4) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+15196.162 (4) Dropbox error: path
+15196.165 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+15196.167 (4) Number of backup sets in history: 4; groups (db): 1
+15196.167 (4) Examining (for databases) backup set with group_id=0, nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+15196.168 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+15196.169 (4) Examining (for databases) backup set with group_id=0, nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+15196.169 (4) Examining (for databases) backup set with group_id=0, nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+15196.169 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+15196.169 (4) Examining (for databases) backup set with group_id=0, nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+15196.169 (4) Number of backup sets in history: 4; groups (files): 1
+15196.170 (4) Examining (for files) backup set with nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+15196.170 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+15196.170 (4) Examining (for files) backup set with nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+15196.170 (4) This backup set is the backup set just made, so will not be deleted.
+15196.171 (4) This backup set is the backup set just made, so will not be deleted.
+15196.171 (4) This backup set is the backup set just made, so will not be deleted.
+15196.171 (4) This backup set is the backup set just made, so will not be deleted.
+15196.171 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+15196.172 (4) Examining (for files) backup set with nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+15196.172 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+15196.173 (4) Examining (for files) backup set with nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+15196.173 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+15196.174 (4) Retain: saving new backup history (sets now: 4) and finishing retain operation
+15196.176 (4) Resume backup (88f15a8dd1fc, 4): finish run
+15196.179 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+15196.181 (4) The backup has not finished; a resumption is scheduled
+15550.014 (5) Opened log file at time: Tue, 19 Sep 2017 03:58:01 +0000 on http://www.thesvu.org
+15550.016 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.21 (cgi-fcgi, Linux carnage 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 27.2M | 2M) multisite: N openssl: OpenSSL 1.0.1 14 Mar 2012 mcrypt: Y LANG:  ZipArchive::addFile: Y
+15550.018 (5) Free space on disk containing Updraft's temporary directory: 371704.9 MB
+15550.024 (5) Backup run: resumption=5, nonce=88f15a8dd1fc, begun at=1505777931 (15550s ago), job type=backup
+15550.038 (5) Scheduling a resumption (6) after 300 seconds (1505793781) in case this run gets aborted
+15550.082 (5) Checking if we have a zip executable available
+15550.087 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+15550.093 (5) Creation of backups of directories: already finished
+15550.102 (5) Saving backup status to database (elements: 8)
+15550.107 (5) No database backup (wp) - not part of this run
+15550.109 (5) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+15550.110 (5) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+15550.111 (5) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+15550.113 (5) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip: others: This file has not yet been successfully uploaded: will queue
+15550.128 (5) Saving backup history. Total backup size: 67.9 MB
+15550.131 (5) Requesting upload of the files that have not yet been successfully uploaded (4)
+15550.134 (5) Cloud backup selection (1/1): dropbox (last)
+15550.135 (5) Beginning dispatch of backup to remote (dropbox)
+15550.137 (5) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+15550.141 (5) Dropbox: access gained; setting chunk size to: 10240 KB
+15551.271 (5) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+15551.273 (5) This is a resumption: 19773611 bytes had already been uploaded
+15551.275 (5) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip) size is -19754300.833008 b (overall file size; .19773611 b), whereas available quota is only -153898098 b
+15551.276 (5) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip
+15552.193 (5) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+15552.195 (5) Dropbox error: path
+15552.196 (5) An error condition has occurred for the first time during this job
+15552.646 (5) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+15552.648 (5) This is a resumption: 1535802 bytes had already been uploaded
+15552.649 (5) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip) size is -1534302.1933594 b (overall file size; .1535802 b), whereas available quota is only -153898098 b
+15552.651 (5) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip
+15553.475 (5) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+15553.477 (5) Dropbox error: path
+15553.878 (5) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+15553.880 (5) This is a resumption: 49896184 bytes had already been uploaded
+15553.883 (5) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip) size is -49847457.257812 b (overall file size; .49896184 b), whereas available quota is only -153898098 b
+15553.890 (5) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip
+15555.039 (5) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+15555.040 (5) Dropbox error: path
+15555.458 (5) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+15555.459 (5) This is a resumption: 6317 bytes had already been uploaded
+15555.460 (5) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip) size is -6310.8310546875 b (overall file size; .6317 b), whereas available quota is only -153898098 b
+15555.460 (5) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip
+15556.618 (5) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+15556.619 (5) Dropbox error: path
+15556.622 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+15556.624 (5) Number of backup sets in history: 4; groups (db): 1
+15556.625 (5) Examining (for databases) backup set with group_id=0, nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+15556.626 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+15556.627 (5) Examining (for databases) backup set with group_id=0, nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+15556.627 (5) Examining (for databases) backup set with group_id=0, nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+15556.627 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+15556.627 (5) Examining (for databases) backup set with group_id=0, nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+15556.627 (5) Number of backup sets in history: 4; groups (files): 1
+15556.631 (5) Examining (for files) backup set with nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+15556.631 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+15556.632 (5) Examining (for files) backup set with nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+15556.632 (5) This backup set is the backup set just made, so will not be deleted.
+15556.633 (5) This backup set is the backup set just made, so will not be deleted.
+15556.633 (5) This backup set is the backup set just made, so will not be deleted.
+15556.633 (5) This backup set is the backup set just made, so will not be deleted.
+15556.633 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+15556.633 (5) Examining (for files) backup set with nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+15556.633 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+15556.634 (5) Examining (for files) backup set with nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+15556.634 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+15556.635 (5) Retain: saving new backup history (sets now: 4) and finishing retain operation
+15556.637 (5) Resume backup (88f15a8dd1fc, 5): finish run
+15556.647 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+15556.649 (5) The backup has not finished; a resumption is scheduled
+18114.461 (6) Opened log file at time: Tue, 19 Sep 2017 04:40:45 +0000 on http://www.thesvu.org
+18114.463 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.21 (cgi-fcgi, Linux carnage 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 27.2M | 12M) multisite: N openssl: OpenSSL 1.0.1 14 Mar 2012 mcrypt: Y LANG:  ZipArchive::addFile: Y
+18114.469 (6) Free space on disk containing Updraft's temporary directory: 371722.3 MB
+18114.486 (6) Backup run: resumption=6, nonce=88f15a8dd1fc, begun at=1505777931 (18114s ago), job type=backup
+18114.519 (6) Long time past since expected resumption time: approx expected=1505793781.3, now=1505796045.8, diff=2264.5
+18114.521 (6) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+18114.531 (6) Scheduling a resumption (7) after 300 seconds (1505796345) in case this run gets aborted
+18114.566 (6) Checking if we have a zip executable available
+18114.572 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+18114.577 (6) Creation of backups of directories: already finished
+18114.578 (6) Saving backup status to database (elements: 8)
+18114.602 (6) No database backup (wp) - not part of this run
+18114.610 (6) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+18114.612 (6) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+18114.613 (6) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+18114.614 (6) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip: others: This file has not yet been successfully uploaded: will queue
+18114.624 (6) Saving backup history. Total backup size: 67.9 MB
+18114.628 (6) Requesting upload of the files that have not yet been successfully uploaded (4)
+18114.651 (6) Cloud backup selection (1/1): dropbox (last)
+18114.651 (6) Beginning dispatch of backup to remote (dropbox)
+18114.652 (6) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+18114.662 (6) Dropbox: access gained; setting chunk size to: 10240 KB
+18115.202 (6) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+18115.203 (6) This is a resumption: 19773611 bytes had already been uploaded
+18115.204 (6) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip) size is -19754300.833008 b (overall file size; .19773611 b), whereas available quota is only -153898098 b
+18115.204 (6) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip
+18115.920 (6) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+18115.921 (6) Dropbox error: path
+18115.922 (6) An error condition has occurred for the first time during this job
+18116.346 (6) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+18116.348 (6) This is a resumption: 1535802 bytes had already been uploaded
+18116.349 (6) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip) size is -1534302.1933594 b (overall file size; .1535802 b), whereas available quota is only -153898098 b
+18116.350 (6) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip
+18116.999 (6) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+18117.001 (6) Dropbox error: path
+18117.434 (6) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+18117.436 (6) This is a resumption: 49896184 bytes had already been uploaded
+18117.436 (6) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip) size is -49847457.257812 b (overall file size; .49896184 b), whereas available quota is only -153898098 b
+18117.439 (6) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip
+18118.099 (6) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+18118.100 (6) Dropbox error: path
+18118.525 (6) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+18118.528 (6) This is a resumption: 6317 bytes had already been uploaded
+18118.529 (6) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip) size is -6310.8310546875 b (overall file size; .6317 b), whereas available quota is only -153898098 b
+18118.530 (6) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip
+18119.157 (6) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+18119.159 (6) Dropbox error: path
+18119.166 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+18119.168 (6) Number of backup sets in history: 4; groups (db): 1
+18119.169 (6) Examining (for databases) backup set with group_id=0, nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+18119.170 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+18119.171 (6) Examining (for databases) backup set with group_id=0, nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+18119.171 (6) Examining (for databases) backup set with group_id=0, nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+18119.171 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+18119.171 (6) Examining (for databases) backup set with group_id=0, nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+18119.171 (6) Number of backup sets in history: 4; groups (files): 1
+18119.172 (6) Examining (for files) backup set with nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+18119.173 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+18119.174 (6) Examining (for files) backup set with nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+18119.174 (6) This backup set is the backup set just made, so will not be deleted.
+18119.174 (6) This backup set is the backup set just made, so will not be deleted.
+18119.174 (6) This backup set is the backup set just made, so will not be deleted.
+18119.174 (6) This backup set is the backup set just made, so will not be deleted.
+18119.174 (6) This backup set remains non-empty (f=1/d=0); will retain in history
+18119.175 (6) Examining (for files) backup set with nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+18119.175 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+18119.176 (6) Examining (for files) backup set with nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+18119.176 (6) This backup set remains non-empty (f=1/d=0); will retain in history
+18119.177 (6) Retain: saving new backup history (sets now: 4) and finishing retain operation
+18119.181 (6) Resume backup (88f15a8dd1fc, 6): finish run
+18119.183 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+18119.185 (6) The backup has not finished; a resumption is scheduled
+18414.640 (7) Opened log file at time: Tue, 19 Sep 2017 04:45:45 +0000 on http://www.thesvu.org
+18414.641 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.21 (cgi-fcgi, Linux carnage 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 27.3M | 2M) multisite: N openssl: OpenSSL 1.0.1 14 Mar 2012 mcrypt: Y LANG:  ZipArchive::addFile: Y
+18414.642 (7) Free space on disk containing Updraft's temporary directory: 371725.7 MB
+18414.651 (7) Backup run: resumption=7, nonce=88f15a8dd1fc, begun at=1505777931 (18414s ago), job type=backup
+18414.659 (7) Scheduling a resumption (8) after 300 seconds (1505796645) in case this run gets aborted
+18414.706 (7) Checking if we have a zip executable available
+18414.707 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+18414.708 (7) Creation of backups of directories: already finished
+18414.709 (7) Saving backup status to database (elements: 8)
+18414.725 (7) No database backup (wp) - not part of this run
+18414.727 (7) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+18414.728 (7) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+18414.731 (7) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+18414.732 (7) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip: others: This file has not yet been successfully uploaded: will queue
+18414.733 (7) Saving backup history. Total backup size: 67.9 MB
+18414.737 (7) Requesting upload of the files that have not yet been successfully uploaded (4)
+18414.747 (7) Cloud backup selection (1/1): dropbox (last)
+18414.749 (7) Beginning dispatch of backup to remote (dropbox)
+18414.750 (7) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+18414.754 (7) Dropbox: access gained; setting chunk size to: 10240 KB
+18415.444 (7) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+18415.451 (7) This is a resumption: 19773611 bytes had already been uploaded
+18415.452 (7) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip) size is -19754300.833008 b (overall file size; .19773611 b), whereas available quota is only -153898098 b
+18415.453 (7) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip
+18416.208 (7) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+18416.210 (7) Dropbox error: path
+18416.210 (7) An error condition has occurred for the first time during this job
+18416.629 (7) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+18416.630 (7) This is a resumption: 1535802 bytes had already been uploaded
+18416.631 (7) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip) size is -1534302.1933594 b (overall file size; .1535802 b), whereas available quota is only -153898098 b
+18416.635 (7) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip
+18417.337 (7) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+18417.339 (7) Dropbox error: path
+18417.750 (7) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+18417.751 (7) This is a resumption: 49896184 bytes had already been uploaded
+18417.752 (7) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip) size is -49847457.257812 b (overall file size; .49896184 b), whereas available quota is only -153898098 b
+18417.764 (7) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip
+18418.458 (7) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+18418.461 (7) Dropbox error: path
+18418.896 (7) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+18418.897 (7) This is a resumption: 6317 bytes had already been uploaded
+18418.898 (7) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip) size is -6310.8310546875 b (overall file size; .6317 b), whereas available quota is only -153898098 b
+18418.908 (7) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip
+18419.586 (7) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+18419.587 (7) Dropbox error: path
+18419.589 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+18419.591 (7) Number of backup sets in history: 4; groups (db): 1
+18419.592 (7) Examining (for databases) backup set with group_id=0, nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+18419.592 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+18419.594 (7) Examining (for databases) backup set with group_id=0, nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+18419.594 (7) Examining (for databases) backup set with group_id=0, nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+18419.594 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+18419.594 (7) Examining (for databases) backup set with group_id=0, nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+18419.594 (7) Number of backup sets in history: 4; groups (files): 1
+18419.595 (7) Examining (for files) backup set with nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+18419.595 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+18419.597 (7) Examining (for files) backup set with nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+18419.597 (7) This backup set is the backup set just made, so will not be deleted.
+18419.601 (7) This backup set is the backup set just made, so will not be deleted.
+18419.601 (7) This backup set is the backup set just made, so will not be deleted.
+18419.601 (7) This backup set is the backup set just made, so will not be deleted.
+18419.601 (7) This backup set remains non-empty (f=1/d=0); will retain in history
+18419.602 (7) Examining (for files) backup set with nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+18419.602 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+18419.603 (7) Examining (for files) backup set with nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+18419.603 (7) This backup set remains non-empty (f=1/d=0); will retain in history
+18419.603 (7) Retain: saving new backup history (sets now: 4) and finishing retain operation
+18419.612 (7) Resume backup (88f15a8dd1fc, 7): finish run
+18419.616 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+18419.621 (7) The backup has not finished; a resumption is scheduled
+26631.367 (8) Opened log file at time: Tue, 19 Sep 2017 07:02:42 +0000 on http://www.thesvu.org
+26631.369 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.21 (cgi-fcgi, Linux carnage 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 27.2M | 12M) multisite: N openssl: OpenSSL 1.0.1 14 Mar 2012 mcrypt: Y LANG:  ZipArchive::addFile: Y
+26631.370 (8) Free space on disk containing Updraft's temporary directory: 375946.9 MB
+26631.373 (8) Backup run: resumption=8, nonce=88f15a8dd1fc, begun at=1505777931 (26631s ago), job type=backup
+26631.386 (8) Long time past since expected resumption time: approx expected=1505796646, now=1505804562.7, diff=7916.7
+26631.387 (8) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+26631.391 (8) Scheduling a resumption (9) after 300 seconds (1505804862) in case this run gets aborted
+26631.407 (8) Checking if we have a zip executable available
+26631.408 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+26631.413 (8) Creation of backups of directories: already finished
+26631.415 (8) Saving backup status to database (elements: 8)
+26631.424 (8) No database backup (wp) - not part of this run
+26631.427 (8) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+26631.428 (8) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+26631.435 (8) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+26631.437 (8) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip: others: This file has not yet been successfully uploaded: will queue
+26631.438 (8) Saving backup history. Total backup size: 67.9 MB
+26631.442 (8) Requesting upload of the files that have not yet been successfully uploaded (4)
+26631.446 (8) Cloud backup selection (1/1): dropbox (last)
+26631.446 (8) Beginning dispatch of backup to remote (dropbox)
+26631.447 (8) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+26631.460 (8) Dropbox: access gained; setting chunk size to: 10240 KB
+26631.962 (8) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+26631.963 (8) This is a resumption: 19773611 bytes had already been uploaded
+26631.965 (8) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip) size is -19754300.833008 b (overall file size; .19773611 b), whereas available quota is only -153898098 b
+26631.966 (8) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip
+26632.722 (8) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+26632.735 (8) Dropbox error: path
+26632.737 (8) An error condition has occurred for the first time during this job
+26633.167 (8) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+26633.168 (8) This is a resumption: 1535802 bytes had already been uploaded
+26633.191 (8) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip) size is -1534302.1933594 b (overall file size; .1535802 b), whereas available quota is only -153898098 b
+26633.192 (8) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip
+26633.820 (8) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+26633.831 (8) Dropbox error: path
+26634.451 (8) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+26634.453 (8) This is a resumption: 49896184 bytes had already been uploaded
+26634.454 (8) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip) size is -49847457.257812 b (overall file size; .49896184 b), whereas available quota is only -153898098 b
+26634.462 (8) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip
+26635.161 (8) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+26635.163 (8) Dropbox error: path
+26635.599 (8) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+26635.713 (8) This is a resumption: 6317 bytes had already been uploaded
+26635.714 (8) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip) size is -6310.8310546875 b (overall file size; .6317 b), whereas available quota is only -153898098 b
+26635.714 (8) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip
+26636.466 (8) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+26636.468 (8) Dropbox error: path
+26636.588 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+26636.590 (8) Number of backup sets in history: 4; groups (db): 1
+26636.591 (8) Examining (for databases) backup set with group_id=0, nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+26636.631 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+26636.632 (8) Examining (for databases) backup set with group_id=0, nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+26636.632 (8) Examining (for databases) backup set with group_id=0, nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+26636.632 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+26636.632 (8) Examining (for databases) backup set with group_id=0, nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+26636.632 (8) Number of backup sets in history: 4; groups (files): 1
+26636.633 (8) Examining (for files) backup set with nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+26636.633 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+26636.634 (8) Examining (for files) backup set with nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+26636.634 (8) This backup set is the backup set just made, so will not be deleted.
+26636.635 (8) This backup set is the backup set just made, so will not be deleted.
+26636.636 (8) This backup set is the backup set just made, so will not be deleted.
+26636.636 (8) This backup set is the backup set just made, so will not be deleted.
+26636.636 (8) This backup set remains non-empty (f=1/d=0); will retain in history
+26636.639 (8) Examining (for files) backup set with nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+26636.639 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+26636.641 (8) Examining (for files) backup set with nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+26636.641 (8) This backup set remains non-empty (f=1/d=0); will retain in history
+26636.643 (8) Retain: saving new backup history (sets now: 4) and finishing retain operation
+26636.651 (8) Resume backup (88f15a8dd1fc, 8): finish run
+26636.662 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+26636.674 (8) The backup has not finished; a resumption is scheduled
+29780.013 (9) Opened log file at time: Tue, 19 Sep 2017 07:55:11 +0000 on http://www.thesvu.org
+29780.014 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.21 (cgi-fcgi, Linux carnage 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 27.6M | 28M) multisite: N openssl: OpenSSL 1.0.1 14 Mar 2012 mcrypt: Y LANG:  ZipArchive::addFile: Y
+29780.015 (9) Free space on disk containing Updraft's temporary directory: 376008.7 MB
+29780.017 (9) Backup run: resumption=9, nonce=88f15a8dd1fc, begun at=1505777931 (29780s ago), job type=backup
+29780.018 (9) Long time past since expected resumption time: approx expected=1505804862.7, now=1505807711.3, diff=2848.6
+29780.025 (9) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+29780.027 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+29780.046 (9) Creation of backups of directories: already finished
+29780.048 (9) Saving backup status to database (elements: 8)
+29780.057 (9) No database backup (wp) - not part of this run
+29780.063 (9) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+29780.065 (9) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+29780.066 (9) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+29780.066 (9) backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip: others: This file has not yet been successfully uploaded: will queue
+29780.067 (9) Saving backup history. Total backup size: 67.9 MB
+29780.070 (9) Requesting upload of the files that have not yet been successfully uploaded (4)
+29780.077 (9) Cloud backup selection (1/1): dropbox (last)
+29780.078 (9) Beginning dispatch of backup to remote (dropbox)
+29780.079 (9) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+29780.086 (9) Dropbox: access gained; setting chunk size to: 10240 KB
+29780.653 (9) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+29780.655 (9) This is a resumption: 19773611 bytes had already been uploaded
+29780.655 (9) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip) size is -19754300.833008 b (overall file size; .19773611 b), whereas available quota is only -153898098 b
+29780.656 (9) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-plugins.zip
+29781.391 (9) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+29781.392 (9) Dropbox error: path
+29781.393 (9) An error condition has occurred for the first time during this job
+29781.849 (9) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+29781.851 (9) This is a resumption: 1535802 bytes had already been uploaded
+29781.852 (9) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip) size is -1534302.1933594 b (overall file size; .1535802 b), whereas available quota is only -153898098 b
+29781.854 (9) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-themes.zip
+29782.534 (9) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+29782.535 (9) Dropbox error: path
+29782.958 (9) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+29782.963 (9) This is a resumption: 49896184 bytes had already been uploaded
+29782.969 (9) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip) size is -49847457.257812 b (overall file size; .49896184 b), whereas available quota is only -153898098 b
+29782.970 (9) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-uploads.zip
+29783.709 (9) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+29783.710 (9) Dropbox error: path
+29784.123 (9) Dropbox quota usage: used=2194.8 MB, total=2048 MB, available=-146.8 MB
+29784.133 (9) This is a resumption: 6317 bytes had already been uploaded
+29784.155 (9) File upload expected to fail: file data remaining to upload (backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip) size is -6310.8310546875 b (overall file size; .6317 b), whereas available quota is only -153898098 b
+29784.165 (9) Dropbox: Attempt to upload: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip to: backup_2017-09-18-2338_Student_Veteran039s_Union_88f15a8dd1fc-others.zip
+29784.827 (9) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: /home/thesvu/thesvu.org/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+29784.828 (9) Dropbox error: path
+29784.831 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+29784.832 (9) Number of backup sets in history: 4; groups (db): 1
+29784.834 (9) Examining (for databases) backup set with group_id=0, nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+29784.835 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+29784.835 (9) Examining (for databases) backup set with group_id=0, nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+29784.835 (9) Examining (for databases) backup set with group_id=0, nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+29784.835 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+29784.835 (9) Examining (for databases) backup set with group_id=0, nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+29784.835 (9) Number of backup sets in history: 4; groups (files): 1
+29784.837 (9) Examining (for files) backup set with nonce=805a96060bfb, datestamp=1505778005 (Sep 18 2017 23:40:05)
+29784.837 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+29784.838 (9) Examining (for files) backup set with nonce=88f15a8dd1fc, datestamp=1505777931 (Sep 18 2017 23:38:51)
+29784.838 (9) This backup set is the backup set just made, so will not be deleted.
+29784.838 (9) This backup set is the backup set just made, so will not be deleted.
+29784.839 (9) This backup set is the backup set just made, so will not be deleted.
+29784.839 (9) This backup set is the backup set just made, so will not be deleted.
+29784.839 (9) This backup set remains non-empty (f=1/d=0); will retain in history
+29784.843 (9) Examining (for files) backup set with nonce=57e665dab2c0, datestamp=1505171647 (Sep 11 2017 23:14:07)
+29784.843 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+29784.852 (9) Examining (for files) backup set with nonce=39f6adcb42d7, datestamp=1504566583 (Sep 04 2017 23:09:43)
+29784.852 (9) This backup set remains non-empty (f=1/d=0); will retain in history
+29784.853 (9) Retain: saving new backup history (sets now: 4) and finishing retain operation
+29784.856 (9) Resume backup (88f15a8dd1fc, 9): finish run
+29784.858 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+29784.860 (9) Fetching RSS news feed
+29785.048 (9) Fetched RSS news feed; result is a: SimplePie
+29785.355 (9) Sending email ('Files only (database was not part of this particular schedule) (Full backup)') report (attachments: 1, size: 98.5 KB) to: danie...
+29785.400 (9) The backup attempt has finished, apparently unsuccessfully
